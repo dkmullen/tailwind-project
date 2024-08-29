@@ -4,7 +4,15 @@ export default {
 
   content: ['./src/**/*.{html,js,vue}'],
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        primary: 'rgb(29 78 216)',
+        secondary: {
+          100: '#E2E2D5',
+          200: '#888883'
+        }
+      }
+    }
   },
   plugins: []
 }
